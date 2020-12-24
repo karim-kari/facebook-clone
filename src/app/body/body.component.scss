@@ -3,6 +3,16 @@
     background-color: #F0F2F5;
     height: 100%;
     width: 100%;
+    span {
+        border: solid .3px black;
+        height: auto;
+        width: 150px;
+
+    }
+    span:hover {
+        background-color: #D2D2D2;
+        
+    }
 
     .top__list> ul > li >img{
         height: 33px;
@@ -10,5 +20,12 @@
         border-radius: 50%;
         
     }
-   
+    .bottom__cati >span> img{
+        height: 33px;
+        width: 33px;
+        border-radius: 2px;
+    }
+   .bottom__cati{
+       display: inline-block;
+   }
 }
