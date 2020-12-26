@@ -1,9 +1,13 @@
 .navmain{
     height: 50px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: solid .3px #D9DBDE;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
 }
 
 .nav__input { 
