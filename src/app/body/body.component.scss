@@ -16,6 +16,7 @@
     }
     .left__menu{
         width: 300px;
+        position: fixed;
         
 
         .top__list{ 
@@ -108,6 +109,8 @@
         display: flex;
         flex-direction: column;
         align-content: flex-start;
+        position: relative;
+        left: 30%;
         
         
         .story{
@@ -438,6 +441,8 @@
     //**********start right__menu *************//
    .right__menu{
        width: 330px;
+       position: fixed;
+       right: 10px;
        
    }
 
