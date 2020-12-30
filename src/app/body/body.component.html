@@ -36,6 +36,14 @@
     <div class="thebody">
         <div class="story">
             <!--start story-->
+            <div class="creat__story">
+                <div class="create__icon">
+                    <button>
+                        <mat-icon>add</mat-icon >
+                    </button><br>
+                    <h2>Create a Story</h2>
+                </div>
+            </div>
             <span class="story__prof" id="prof__1">
                 <img src="../../assets/profil 1.jpg" alt="">
                 <h2>Agone Lamin</h2>
@@ -56,11 +64,16 @@
                 <img src="../../assets/profil 5.jpg" alt="">
                 <h2>Leonel Pickou</h2>
             </span>
-            <span class="story__prof"id="prof__6">
-                <img src="../../assets/profil 6.jpg" alt="">
-                <h2>Dispéra Sam</h2>
-            </span>
+            
+            
          </div>
+         
+            <button class="to__slid">
+              
+              <mat-icon class="arrow__slid">arrow_forward</mat-icon>
+            
+            </button>
+          
          <!--end of story -->
          <div class="what__new">
              <span>
@@ -107,9 +120,22 @@
                 <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
                 
                 <mat-card-actions class="action">
-                  <button> <mat-icon>thumb_up</mat-icon>  </button>
-                  <button> <mat-icon>comment</mat-icon> </button>
-                  <button><mat-icon>share</mat-icon></button>
+                    <div class="likes_comments">
+                        <div class="icones">
+                            <mat-icon id="mood">mood</mat-icon>
+                            <mat-icon id="thumb">thumb_up_alt</mat-icon>
+                            <p>89</p>
+
+                        </div>
+                        <div class="com__share">
+                            <p>75 comment 146 share</p>
+                        </div>
+                    </div>
+                    <div class="the_botons">
+                        <a href="#" role="button"> <mat-icon id="videocam">thumb_up_alt</mat-icon> <h3>Like</h3></a>
+                        <a href="#" role="button"> <mat-icon id="videocam">comment</mat-icon> <h3>Comment</h3></a>
+                        <a href="#" role="button"> <mat-icon id="videocam">share</mat-icon> <h3>Share</h3></a>
+                    </div>
                 </mat-card-actions>
               </mat-card>
               <div class="my__card">
