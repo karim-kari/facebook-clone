@@ -4,24 +4,21 @@
         <!--top list -->
         <div class="top__list">
             <ul class="list__primar">
-                <li> <a href=""><img src="../../assets/profil 1.jpg" alt=""><h3>Karim Farhi</h3></a> </li>
-                <li> <a href=""><mat-icon>flag</mat-icon><h4>Pages</h4></a></li>
-                <li> <a href=""><mat-icon>favorite_border</mat-icon><h4>Covid 19</h4></a></li>
-                <li> <a href=""><mat-icon>group</mat-icon><h4>Friends</h4></a></li>
-                <li> <a href=""><mat-icon>groups</mat-icon><h4>Groups</h4> </a></li>
-                <li *ngIf="SeeMore" (click)="onclick()"><mat-icon>expand_more</mat-icon>
-                    {{SeeMore?"See more":"See more"}}
-                
-                </li>
+                <li> <a href="#"><img src="../../assets/profil 1.jpg" alt=""><h3>Karim Farhi</h3></a> </li>
+                <li> <a href="#"><mat-icon>flag</mat-icon><h4>Pages</h4></a></li>
+                <li> <a href="#"><mat-icon>favorite_border</mat-icon><h4>Covid-19 Information Centre</h4></a></li>
+                <li> <a href="#"><mat-icon>group</mat-icon><h4>Friends</h4></a></li>
+                <li> <a href="#"><mat-icon>groups</mat-icon><h4>Groups</h4> </a></li>
+                <li> <a href="#"><mat-icon>storefront</mat-icon><h4>Shop </h4></a></li>
+                <li class="see" *ngIf="SeeMore" (click)="onclick()"><a><mat-icon>expand_more</mat-icon></a> {{SeeMore?"See more":"See more"}} </li>
                 <li  class="list__menu">
                     <ng-container *ngIf="visible">
                         <ul class="list__secon">
-                            <li class="seco__list"> <a href=""><mat-icon>storefront</mat-icon><h4>Shop </h4></a></li>
-                            <li> <a href=""><mat-icon>sports_esports</mat-icon><h4>Games</h4></a></li>
-                            <li> <a href=""><mat-icon>domain</mat-icon><h4></h4>Sales groups</a></li>
-                            <li> <a href=""><mat-icon>payments</mat-icon><h4>Facebook Pay</h4> </a></li>
-                            <li> <a href=""><mat-icon>work</mat-icon><h4></h4>Jobs</a></li>
-                            <li *ngIf="visible" (click)="onclick()" ><mat-icon>expand_less</mat-icon>
+                            <li> <a href="#"><mat-icon>sports_esports</mat-icon><h4>Games</h4></a></li>
+                            <li> <a href="#"><mat-icon>domain</mat-icon><h4></h4>Sales groups</a></li>
+                            <li> <a href="#"><mat-icon>payments</mat-icon><h4>Facebook Pay</h4> </a></li>
+                            <li> <a href="#"><mat-icon>work</mat-icon><h4></h4>Jobs</a></li>
+                            <li class="see" *ngIf="visible" (click)="onclick()" ><a><mat-icon>expand_less</mat-icon></a>
                                 {{SeeMore?"See less":"See less"}}
                             </li>
                         </ul>
